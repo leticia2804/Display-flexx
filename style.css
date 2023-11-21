@@ -1,7 +1,37 @@
 section {
     border:2px solid red;
+ }
+
+.iphone {
+    display: flex;
+    align-items: center; /*alinhamento do eixo transversal */
+    justify-content: center;  /*alinhamento do eixo principal */
+    gap: 4rem;  /* espaçamento entre os elementos do display flex */
+    margin-bottom: 1rem;
 }
 
 .iphone img {
     width: 20rem;
+}
+
+.iphone p {
+    width: 30rem ;
+    text-align: center;
+}
+
+.samsung {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.samsung img {
+    width: 20rem;
+}
+
+.samsung p {
+    width: 30rem;
+    text-align: center;
 }
